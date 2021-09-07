@@ -1,0 +1,27 @@
+.country-population-section {
+  display: grid;
+  grid-template-columns: 1.5fr 6fr 1.5fr;
+  grid-auto-flow: row;
+  row-gap: 0;
+  padding-left: 40px;
+  grid-template-areas: 'country-name-section percantage-scroll-section country-population-section';
+}
+
+.country-name-section {
+  grid-area: country-name-section;
+}
+
+.percantage-scroll-section {
+  grid-area: percantage-scroll-section;
+  background-color: orange;
+  height: 20px;
+  width: 70%;
+}
+
+.country-population-section {
+  grid-area: country-population-section;
+}
+
+.title {
+  text-align: center;
+}
